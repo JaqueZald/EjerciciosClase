@@ -11,6 +11,9 @@ public class Persona {
         this.direccion = direccion;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
     public void mostrarInfo(){
         System.out.println("Nombre: "+nombre);
         System.out.println("Edad: "+edad);

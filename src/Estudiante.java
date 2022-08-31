@@ -9,11 +9,11 @@ public class Estudiante extends Persona {
         this.calicacion=cal;
     }
 
-    public void setCalicacion(double calicacion) {
-        this.calicacion = calicacion;
-    }
 
-    public void setCurso(String curso) {
-        this.curso = curso;
+    public void verCalificacion(){
+        System.out.println("La calificacion de "+getNombre()+" es"+calicacion);
+    }
+    public void verCurso(){
+        System.out.println("El curso es: "+curso);
     }
 }
