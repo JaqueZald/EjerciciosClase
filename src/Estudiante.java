@@ -16,4 +16,5 @@ public class Estudiante extends Persona {
     public void verCurso(){
         System.out.println("El curso es: "+curso);
     }
+
 }
