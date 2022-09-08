@@ -38,9 +38,4 @@ public class Estudiante extends Persona implements IntAlumno, IntAlumno2 {
     public void entrarCurso() {
 
     }
-
-    @Override
-    public void mostrarHorario() {
-        IntAlumno2.super.mostrarHorario();
-    }
 }
