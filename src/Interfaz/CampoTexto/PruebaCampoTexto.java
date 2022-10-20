@@ -1,4 +1,6 @@
-package Interfaz;
+package Interfaz.CampoTexto;
+
+import Interfaz.CampoTexto.CampoTextoMarco;
 
 import javax.swing.*;
 

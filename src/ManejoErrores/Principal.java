@@ -7,10 +7,9 @@ public class Principal {
         try {//Cuando es suceptible, evalua lo que hay entre los corchetes
             System.out.println(numeros[3]);
         } catch (java.lang.ArrayIndexOutOfBoundsException e) {//captura el error en el objeto e
-            System.out.println("Error: "+e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
 
         System.out.println("Final");
     }
 }
-

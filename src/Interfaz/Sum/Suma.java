@@ -1,4 +1,4 @@
-package Interfaz;
+package Interfaz.Sum;
 
 import javax.swing.*;
 
