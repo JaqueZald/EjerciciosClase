@@ -11,6 +11,7 @@ public class Simbologia {
     ||= Operador or (o)
     != Operador not (no
     % o mod= Resto de una división entre enteros
+    if(e.compareTo(mayor)>0){//compara
     Math.sqrt (#) =sacar raices
     Math.pow(#,#)= elevar a cualquier numero
     Math.max(#, #)= maximo entre 2 numeros
